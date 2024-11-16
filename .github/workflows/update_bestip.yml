@@ -2,7 +2,7 @@ name: "Auto Update IP"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 */8 * * *"
+    - cron: "20 */4 * * *"
 env:
   TZ: Asia/Shanghai
 
